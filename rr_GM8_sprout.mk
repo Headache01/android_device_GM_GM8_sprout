@@ -21,13 +21,13 @@ $(call inherit-product, device/GM/GM8_sprout/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Havoc stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common ResurrectionRemix stuff
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 PRODUCT_BRAND := GM
 PRODUCT_DEVICE := GM8_sprout
 PRODUCT_MANUFACTURER := General Mobile
-PRODUCT_NAME := havoc_GM8_sprout
+PRODUCT_NAME := rr_GM8_sprout
 PRODUCT_MODEL := GM 8
 
 PRODUCT_GMS_CLIENTID_BASE := android-gm
@@ -38,8 +38,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="msm8937_64-user 9 OPM1.17101
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := essential/mata/mata:8.1.0/OPM1.180104.092/224:user/release-keys
 
-#HAVOC CONFS
+#RR CONFS
 WITH_TWRP := true
-WITH_GAPPS := true
 WITH_GMS := true
 
