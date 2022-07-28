@@ -40,6 +40,6 @@ BUILD_FINGERPRINT := essential/mata/mata:8.1.0/OPM1.180104.092/224:user/release-
 
 #HAVOC CONFS
 WITH_TWRP := true
-WITH_GAPPS := true
+#WITH_GAPPS := true   Q NOT SUPPORTED
 WITH_GMS := true
 
