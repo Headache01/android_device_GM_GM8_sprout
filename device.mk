@@ -430,4 +430,4 @@ PRODUCT_COPY_FILES += \
 -include $(LOCAL_PATH)/prop.mk
 	
 # Inherit vendor
-$(call inherit-product, vendor/GM/GM8_sprout/GM8_sprout-vendor.mk)
+$(call inherit-product, vendor/gm/GM8_sprout/GM8_sprout-vendor.mk)
