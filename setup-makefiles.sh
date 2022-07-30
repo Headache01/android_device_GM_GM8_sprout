@@ -18,7 +18,7 @@
 set -e
 
 DEVICE=GM8_sprout
-VENDOR=GM
+VENDOR=gm
 INITIAL_COPYRIGHT_YEAR=2022
 
 # Load extract_utils and do some sanity checks
