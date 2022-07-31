@@ -343,6 +343,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
     android.hardware.radio.config@1.0 \
+    android.hardware.radio.config@1.1.vendor \
     android.hardware.secure_element@1.0 \
     librmnetctl \
     libcnefeatureconfig \
